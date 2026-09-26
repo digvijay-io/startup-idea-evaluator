@@ -206,7 +206,7 @@ StartupIdeas/
 
 ### 📋 Ideas – Light Mode
 
-![Ideas Light Mode](screenshots/ideas-light.png)
+![Ideas Light Mode](screenshots/idea-light.png)
 
 ### 🌙 Ideas – Dark Mode
 
