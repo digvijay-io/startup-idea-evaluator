@@ -21,10 +21,19 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.digvijay.d.StartupIdeas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "38fa1ba2-26e3-4df2-9697-8f27bdef3a14"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
