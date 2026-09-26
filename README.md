@@ -128,19 +128,19 @@ The visual design uses a blue/indigo color palette to represent technology, crea
 
 ## 🛠️ Tech Stack
 
-| Technology                     | Purpose                            |
-| ------------------------------ | ---------------------------------- |
-| React Native                   | Mobile application framework       |
-| Expo                           | Development and build environment  |
-| TypeScript                     | Type safety                        |
-| Redux Toolkit                  | Global state management            |
-| React Redux                    | Connecting Redux with React Native |
-| React Navigation               | Application navigation             |
-| AsyncStorage                   | Local data persistence             |
-| Expo Blur                      | Glass-style UI effects             |
-| Expo Linear Gradient           | Gradient UI elements               |
-| Expo Vector Icons              | Icons                              |
-| React Native Safe Area Context | Safe area handling                 |
+| Technology | Purpose |
+|---|---|
+| React Native | Mobile application framework |
+| Expo | Development and build environment |
+| TypeScript | Type safety |
+| Redux Toolkit | Global state management |
+| React Redux | Connecting Redux with React Native |
+| React Navigation | Application navigation |
+| AsyncStorage | Local data persistence |
+| Expo Blur | Glass-style UI effects |
+| Expo Linear Gradient | Gradient UI elements |
+| Expo Vector Icons | Icons |
+| React Native Safe Area Context | Safe area handling |
 
 ---
 
@@ -188,31 +188,3 @@ StartupIdeas/
         ├── generateRating.ts
         ├── storage.ts
         └── voteStorage.ts
-
-
- ## 📸 Screenshots
-
-### 🏠 Home – Light Mode
-
-![Home Light Mode](screenshots/home-light.png)
-
-### 🌙 Home – Dark Mode
-
-![Home Dark Mode](screenshots/home-dark.png)
-
-### 💡 Create Idea
-
-![Create Idea](screenshots/create-idea.png)
-
-### 📋 Ideas – Light Mode
-
-![Ideas Light Mode](screenshots/idea-light.png)
-
-### 🌙 Ideas – Dark Mode
-
-![Ideas Dark Mode](screenshots/idea-dark.png)
-
-### 🏆 Leaderboard
-
-![Leaderboard](screenshots/leaderboard.png)
-```
