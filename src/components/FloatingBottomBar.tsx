@@ -83,11 +83,7 @@ export default function FloatingBottomBar({
                     name={tab.icon as any}
                     size={18}
                     color={
-                      active
-                        ? theme.primary
-                        : isDark
-                        ? "#FFFFFF"
-                        : "#333333"
+                      active ? theme.primary : isDark ? "#FFFFFF" : "#333333"
                     }
                   />
 
@@ -98,8 +94,8 @@ export default function FloatingBottomBar({
                         color: active
                           ? theme.primary
                           : isDark
-                          ? "#FFFFFF"
-                          : "#333333",
+                            ? "#FFFFFF"
+                            : "#333333",
                       },
                       active && styles.activeLabel,
                     ]}
@@ -169,6 +165,7 @@ const styles = StyleSheet.create({
     width: "96%",
     height: 56,
     borderRadius: 28,
+    overflow: "hidden",
     alignItems: "center",
     justifyContent: "center",
     gap: 2,
